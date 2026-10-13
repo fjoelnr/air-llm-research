@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "status": "created",
+  "issues": [
+  {
+    "backlog_id": "B01",
+    "title": "[P0][Phase 01] Drei Originaldossiers beschaffen und eindeutig zuordnen",
+    "number": 1,
+    "url": "https://github.com/fjoelnr/air-llm-research/issues/1",
+    "state": "open"
+  },
+  {
+    "backlog_id": "B02",
+    "title": "[P0][Phase 01] AIR-LLM definieren und falsifizierbare Forschungsfragen festlegen",
+    "number": 2,
+    "url": "https://github.com/fjoelnr/air-llm-research/issues/2",
+    "state": "open"
+  },
+  {
+    "backlog_id": "B03",
+    "title": "[P0][Phase 01] Claims extrahieren und unbelegte Modellrechnungen prüfen",
+    "number": 3,
+    "url": "https://github.com/fjoelnr/air-llm-research/issues/3",
+    "state": "open"
+  },
+  {
+    "backlog_id": "B04",
+    "title": "[P0][Phase 01] Simulationslücken auditieren und erstes Experimentprotokoll spezifizieren",
+    "number": 4,
+    "url": "https://github.com/fjoelnr/air-llm-research/issues/4",
+    "state": "open"
+  },
+  {
+    "backlog_id": "B05",
+    "title": "[P1][MUNIN] Lesenden Zugriff erhalten und optionalen Ingest separat entscheiden",
+    "number": 5,
+    "url": "https://github.com/fjoelnr/air-llm-research/issues/5",
+    "state": "open"
+  }
+]
+}

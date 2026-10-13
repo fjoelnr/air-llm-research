@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "C-0001",
+      "statement": "MUNIN-General meldete beim Zugriffsaudit read_only=true.",
+      "kind": "access",
+      "status": "verified_access",
+      "source_ids": [
+        "S-MUNIN"
+      ],
+      "locators": [
+        "registries/access-audit.json: health.read_only"
+      ],
+      "assumptions": [],
+      "uncertainty": "Momentaufnahme; keine Aussage über lokale Obsidian-Dateirechte.",
+      "verification": "health live gelesen; Werkzeuginventar nur lesend.",
+      "experiment_ids": []
+    },
+    {
+      "id": "C-0002",
+      "statement": "AIR-LLM wurde mit project_context und exakter knowledge_search nicht gefunden.",
+      "kind": "access",
+      "status": "verified_access",
+      "source_ids": [
+        "S-MUNIN"
+      ],
+      "locators": [
+        "registries/access-audit.json: project_context, search"
+      ],
+      "assumptions": [],
+      "uncertainty": "Indexumfang begrenzt; keine vollständige Abwesenheit im Vault bewiesen.",
+      "verification": "project_not_found und 0 Treffer zurückgegeben.",
+      "experiment_ids": []
+    },
+    {
+      "id": "C-0003",
+      "statement": "Die drei Dossier-Volltexte waren im verfügbaren Gesprächsabruf nicht enthalten.",
+      "kind": "source_availability",
+      "status": "source_missing",
+      "source_ids": [
+        "S-THREAD",
+        "D01",
+        "D02",
+        "D03"
+      ],
+      "locators": [
+        "docs/DOSSIER_REVIEW.md: Tatsächlich geprüft"
+      ],
+      "assumptions": [],
+      "uncertainty": "Unzugänglichkeit belegt weder Inhalt noch Nichtexistenz.",
+      "verification": "Fünf Turns, Platzhalter in Assistententexten, keine Anhänge, kein weiterer Cursor; Browser ohne Gesprächszugriff.",
+      "experiment_ids": []
+    }
+  ]
+}

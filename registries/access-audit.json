@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "checked": "2026-10-13T21:39:42.054803+00:00",
+  "service": "munin-mcp",
+  "version": "0.1.0",
+  "vault": "MUNIN-General",
+  "read_only": true,
+  "project_context": {
+    "project": "AIR-LLM",
+    "status": "project_not_found"
+  },
+  "exact_search": "AIR-LLM",
+  "result_count": 0,
+  "health": {
+    "status": "ok",
+    "service": "munin-mcp",
+    "version": "0.1.0",
+    "vault_name": "MUNIN-General",
+    "read_only": true
+  },
+  "search": {
+    "query": "\"AIR-LLM\"",
+    "result_count": 0,
+    "backend": "sqlite_fts5",
+    "index_documents": 36
+  },
+  "tools": [
+    "health",
+    "vault_info",
+    "project_context",
+    "knowledge_search",
+    "knowledge_read"
+  ],
+  "knowledge_read": {"path": "00-System/Prompts/Brain-First.md", "start_line": 1, "lines_returned": 12, "status": "success", "read_only": true},
+  "write_attempted": false,
+  "write_capability": "not_available_in_configured_mcp",
+  "obsidian_local_permissions": "not_tested",
+  "restricted_access_attempted": false,
+  "sync_performed": false
+}

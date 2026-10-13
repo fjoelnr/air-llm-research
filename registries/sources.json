@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "S-REQUEST",
+      "title": "Aktueller Nutzerauftrag",
+      "kind": "user_request",
+      "availability": "available",
+      "locator": "Aktueller Auftrag zur Phase-00/01-Initialisierung",
+      "rights": "Projektauftrag öffentlich umgesetzt; kein Rohgespräch veröffentlicht"
+    },
+    {
+      "id": "S-MUNIN",
+      "title": "Live MUNIN MCP audit",
+      "kind": "access_audit",
+      "availability": "available",
+      "locator": "registries/access-audit.json",
+      "rights": "Minimierte technische Statusdaten"
+    },
+    {
+      "id": "S-THREAD",
+      "title": "AIR-LLM erklärt — begrenzter Gesprächsabruf",
+      "kind": "conversation_metadata",
+      "availability": "metadata_only",
+      "locator": "docs/DOSSIER_REVIEW.md, Abschnitt Tatsächlich geprüft",
+      "rights": "Nur Verfügbarkeitsbefund; keine Volltexte veröffentlicht"
+    },
+    {
+      "id": "D01",
+      "title": "Unbekannt — Arbeits-ID, Zuordnung unbestätigt",
+      "kind": "dossier",
+      "availability": "missing",
+      "locator": null,
+      "rights": "unbekannt",
+      "sha256": null
+    },
+    {
+      "id": "D02",
+      "title": "Unbekannt — Arbeits-ID, Zuordnung unbestätigt",
+      "kind": "dossier",
+      "availability": "missing",
+      "locator": null,
+      "rights": "unbekannt",
+      "sha256": null
+    },
+    {
+      "id": "D03",
+      "title": "Unbekannt — Arbeits-ID, Zuordnung unbestätigt",
+      "kind": "dossier",
+      "availability": "missing",
+      "locator": null,
+      "rights": "unbekannt",
+      "sha256": null
+    }
+  ]
+}
