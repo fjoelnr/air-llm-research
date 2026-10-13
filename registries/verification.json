@@ -1,5 +1,26 @@
 {
   "schema_version": 1,
-  "status": "pending_remote_verification",
-  "scientific_validation": false
+  "status": "verified",
+  "verified_commit": "fb81b4d0bd13a4e3df2ff3bc0375f3982a26f492",
+  "repository": "https://github.com/fjoelnr/air-llm-research",
+  "visibility": "PUBLIC",
+  "file_count": 27,
+  "remote_blob_hashes_match_local_git_index": true,
+  "issue_count": 5,
+  "issue_titles_and_bodies_match": true,
+  "local_validation": "PASS",
+  "local_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "ci": {
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/fjoelnr/air-llm-research/actions/runs/38473250084"
+  },
+  "phase00": "foundation_verified",
+  "phase01": "initialized_source_blocked",
+  "scientific_validation": false,
+  "simulation_runs": 0,
+  "munin_writes": 0
 }
